@@ -41,7 +41,7 @@ LoadingView.shared.updatePercentage(percentage)
 //the default values are:
 //cancellation = false
 //percentage = false
-//
+//blurEnabled = enabled
 
 ```
 
