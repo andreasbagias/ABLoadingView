@@ -21,6 +21,30 @@ it, simply add the following line to your Podfile:
 pod 'ABLoadingView'
 ```
 
+## How to Use
+
+```swift
+//to start the default loading view just call
+LoadingView.shared.start()
+
+//to end the default loading view just call
+LoadingView.shared.stop()
+
+//to modify the appearance call the following
+LoadingView.shared.cancelationEnabled(true)
+LoadingView.shared.percentageEnabled(true)
+LoadingView.shared.blurEnabled(false)
+
+//percentage is a int from 0 to 100
+LoadingView.shared.updatePercentage(percentage)
+
+//the default values are:
+//cancellation = false
+//percentage = false
+//
+
+```
+
 ## Author
 
 andreasbagias, andreasbagias@gmail.com
