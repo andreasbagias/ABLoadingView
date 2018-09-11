@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ABLoadingView_Example' do
+  pod 'ABLoadingView', :path => '../'
+
+  target 'ABLoadingView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
