@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		26ABF5CCDCE9FE540B3F73AD /* Pods_ABLoadingView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A062DD9801A310375571D3 /* Pods_ABLoadingView_Example.framework */; };
+		28702D062147FBF5006EB8DA /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28702D052147FBF5006EB8DA /* ImageViewController.swift */; };
 		500CFCF76B64EAE95C2F17C6 /* Pods_ABLoadingView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509B9DE23E0E4648EF7D8550 /* Pods_ABLoadingView_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28702D052147FBF5006EB8DA /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		509B9DE23E0E4648EF7D8550 /* Pods_ABLoadingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABLoadingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ABLoadingView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABLoadingView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,11 +44,11 @@
 		8811F5FF26E07E8CFF124610 /* Pods-ABLoadingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABLoadingView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABLoadingView_Example/Pods-ABLoadingView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B59CD0F8A66CDEB6AA1F6000 /* Pods-ABLoadingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABLoadingView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABLoadingView_Tests/Pods-ABLoadingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D8FCD17A7A88ACA6F5F2813A /* Pods-ABLoadingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABLoadingView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ABLoadingView_Tests/Pods-ABLoadingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E32FBE3FF9F578B22FBD8E43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E32FBE3FF9F578B22FBD8E43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E3A062DD9801A310375571D3 /* Pods_ABLoadingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABLoadingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF8D1DE088D307C1F565171 /* Pods-ABLoadingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABLoadingView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ABLoadingView_Example/Pods-ABLoadingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EFF0DD5B0E147968745DDB54 /* ABLoadingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ABLoadingView.podspec; path = ../ABLoadingView.podspec; sourceTree = "<group>"; };
-		F901FBFD3A5C6723BE20F6D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EFF0DD5B0E147968745DDB54 /* ABLoadingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ABLoadingView.podspec; path = ../ABLoadingView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F901FBFD3A5C6723BE20F6D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				28702D052147FBF5006EB8DA /* ImageViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -323,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				28702D062147FBF5006EB8DA /* ImageViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ABLoadingView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -485,6 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ABLoadingView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
