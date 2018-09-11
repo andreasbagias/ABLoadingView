@@ -7,7 +7,7 @@
 
 ## Example
 
-<img src="https://github.com/andreasbagias/ABLoadingView/blob/master/Example/picture1.png">
+<img src="https://github.com/andreasbagias/ABLoadingView/blob/master/Example/picture1.png" width="600" height="463">
 
 
 ## Requirements
