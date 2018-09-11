@@ -1,0 +1,16 @@
+PODS:
+  - ABLoadingView (0.1.0)
+
+DEPENDENCIES:
+  - ABLoadingView (from `../`)
+
+EXTERNAL SOURCES:
+  ABLoadingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ABLoadingView: e15ea02681428194795486a65615ce6ed07f4f15
+
+PODFILE CHECKSUM: c9e29b83767a5ffda74de235502121daaf55130b
+
+COCOAPODS: 1.5.0

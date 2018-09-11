@@ -1,0 +1,6 @@
+framework module ABLoadingView {
+  umbrella header "ABLoadingView-umbrella.h"
+
+  export *
+  module * { export * }
+}
