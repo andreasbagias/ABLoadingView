@@ -33,8 +33,13 @@ public class LoadingView: UIView{
     public func start(){
         if state == State.loading { return }
         state = State.loading
-        let window: UIWindow = (UIApplication.shared.delegate?.window!)!
-        window.addSubview(self)
+        if #available(iOS 13.0, *) {
+            let window = UIApplication.shared.keyWindow
+            window?.addSubview(self)
+        } else {
+            let window: UIWindow = (UIApplication.shared.delegate?.window!)!
+            window.addSubview(self)
+        }
     }
     
     public func stop(){
